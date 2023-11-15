@@ -145,7 +145,7 @@ export type {
   ViewStateChangeEvent
 } from './types/events-mapbox';
 export type PopupEvent = events.PopupEvent<MapboxPopup>;
-export type MarkerEvent = events.MarkerEvent<MapboxMarker>;
+export type MarkerEvent = events.MarkerEvent<MapboxMarker, MouseEvent>;
 export type MarkerDragEvent = events.MarkerDragEvent<MapboxMarker>;
 export type GeolocateEvent = events.GeolocateEvent<MapboxGeolocateControl>;
 export type GeolocateResultEvent = events.GeolocateResultEvent<MapboxGeolocateControl>;
